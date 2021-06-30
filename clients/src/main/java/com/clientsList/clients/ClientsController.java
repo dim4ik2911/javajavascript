@@ -31,7 +31,7 @@ public class ClientsController {
     }
 
     @GetMapping("/clients")
-    // get clients
+
     public List<Client> getClients() {
         return this.clients;
     }
