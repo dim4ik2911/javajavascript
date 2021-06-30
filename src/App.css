@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.App {
+  min-height: 100vh;
+
+  color: #fff;
+  background: radial-gradient(
+    circle,
+    rgba(149, 4, 4, 1) 0%,
+    rgba(105, 8, 8, 1) 40%,
+    rgba(48, 1, 1, 1) 100%
+  );
+  font-size: 1.4rem;
+}
